@@ -11,7 +11,7 @@ const assetsPath =
     ? process.resourcesPath
     : app.getAppPath()
 
-function createWindow() {
+function createWindow () {
   mainWindow = new BrowserWindow({
     icon: path.join(assetsPath, 'assets', 'icon.png'),
     minHeight: 600,
@@ -33,10 +33,7 @@ function createWindow() {
   })
 }
 
-async function registerListeners() {
-  /**
-   * This comes from bridge integration, check bridge.ts
-   */
+async function registerListeners () {
   ipcMain.on('message', (_, message) => {
     console.log(message)
   })
