@@ -1,19 +1,15 @@
 import { Container, Image, Text } from './styles'
 
 export const Home = () => {
-  function handleSayHello () {
-    window.Main.sendMessage('Hello World');
-
-    console.log('Message sent! Check main process log in terminal.')
-  }
-
   return (
     <Container>
+      <h1>Electron, React and TypeScript Template</h1>
       <Image
         src="https://www.vectorlogo.zone/logos/reactjs/reactjs-icon.svg"
         alt="ReactJS logo"
       />
-      <Text>An Electron boilerplate including TypeScript, React, Jest and ESLint.</Text>
+      <Text>Edit <code>src/App.tsx</code> and save to reload.</Text>
+      <Text>You can use Bootstrap, Styled Components or pure CSS to beatify your app :)</Text>
     </Container>
   )
 }

@@ -1,4 +1,5 @@
-import { GlobalStyle } from './styles/GlobalStyle'
+import { GlobalStyle } from './UI/GlobalStyle';
+import "./UI/index.global.css"
 
 import { Home } from './components/Home'
 

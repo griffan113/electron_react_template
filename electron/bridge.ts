@@ -1,7 +1,7 @@
 import { contextBridge, ipcRenderer } from 'electron'
 
 export const api = {
-  sendMessage: (message: string) => {
+  ping: (message: string) => {
     ipcRenderer.send('message', message)
   },
 

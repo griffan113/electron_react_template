@@ -11,14 +11,14 @@ const assetsPath =
     ? process.resourcesPath
     : app.getAppPath()
 
-function createWindow () {
+function createWindow() {
   mainWindow = new BrowserWindow({
     icon: path.join(assetsPath, 'assets', 'icon.png'),
     minHeight: 600,
     minWidth: 500,
     width: 1100,
     height: 700,
-    backgroundColor: '#191622',
+    backgroundColor: '#FFF',
     webPreferences: {
       nodeIntegration: false,
       contextIsolation: true,
@@ -33,7 +33,7 @@ function createWindow () {
   })
 }
 
-async function registerListeners () {
+async function registerListeners() {
   ipcMain.on('message', (_, message) => {
     console.log(message)
   })
