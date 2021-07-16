@@ -9,7 +9,7 @@ export const Home = () => {
         alt="ReactJS logo"
       />
       <Text>Edit <code>src/App.tsx</code> and save to reload.</Text>
-      <Text>You can use Bootstrap, Styled Components or pure CSS to beatify your app :)</Text>
+      <Text>You can use Bootstrap, Styled Components or pure CSS to beautify your app :)</Text>
     </Container>
   )
 }
