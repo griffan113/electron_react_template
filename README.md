@@ -10,11 +10,11 @@
 
 <div align="center">
 
-  Code   | Function
-  --------- | ------
-  `yarn dev` | to install dependencies
-  `yarn start` | to run project on development
-  `yarn package` | to build the project
+  | Command        | Function                      |
+  | -------------- | ----------------------------- |
+  | `yarn`         | to install dependencies       |
+  | `yarn dev`     | to run project on development |
+  | `yarn package` | to build the project          |
 
 </div>
 
@@ -32,4 +32,9 @@
   <a target="blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/2048px-Typescript_logo_2020.svg.png" width="45" alt="TypeScript" /></a>
   <a target="blank"><img src="https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582747_640.png" width="50" alt="TypeScript" /></a>
   <a href="https://www.typescriptlang.org/" target="blank"><img src="https://getbootstrap.com/docs/4.0/assets/brand/bootstrap-social-logo.png" width="50" alt="TypeScript" /></a>
+  <a href="https://www.typescriptlang.org/" target="blank"><img src="https://seeklogo.com/images/J/jest-logo-F9901EBBF7-seeklogo.com.png" width="40" alt="TypeScript" /></a>
+</div>
+
+<div align="center">
+  <h2>This module supports png, jpeg, gif, ico, svg, mp4 and mkv files</h2>
 </div>

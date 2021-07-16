@@ -1,8 +1,19 @@
-import { contextBridge, ipcRenderer } from 'electron'
+import { contextBridge, ipcRenderer } from 'electron';
 
-export const api = {
-  ping: (message: string) => {
-    ipcRenderer.send('message', message)
+// Bridge is a "middleware" between ipcMain and ipcRenderer. 
+
+export const bridge = {
+  // Example of handling with events. see electron/MainProcess.ts for more.
+
+  ping: () => {
+    ipcRenderer.send('ping', "Ping!");
+
+    // Listen to event reply.
+    ipcRenderer
+      .on('ping', (event, data: string) => {
+        // Prints "Pong!"
+        console.log(data);
+      });
   },
 
   on: (channel: string, callback: Function) => {
@@ -10,4 +21,4 @@ export const api = {
   }
 }
 
-contextBridge.exposeInMainWorld('Main', api)
+contextBridge.exposeInMainWorld('Bridge', bridge)

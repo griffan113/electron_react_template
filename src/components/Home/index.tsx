@@ -1,6 +1,7 @@
-import { Container, Image, Text } from './styles'
+import { Container, Image, Text } from './styles';
+import React from 'react'
 
-export const Home = () => {
+export const Home: React.FC = () => {
   return (
     <Container>
       <h1>Electron, React and TypeScript Template</h1>

@@ -1,6 +1,6 @@
 {
   "name": "electron-template",
-  "author": "Eliel",
+  "author": "Eliel <https://github.com/griffan113>",
   "version": "1.0.0",
   "description": "TS + React + Electron template",
   "main": "./.webpack/main/index.js",
@@ -62,7 +62,6 @@
     "eslint-plugin-standard": "5.0.0",
     "jest": "27.0.4",
     "npm-run-all": "4.1.5",
-    "prettier": "2.3.1",
     "ts-jest": "27.0.3",
     "typescript": "4.3.4",
     "wait-on": "5.3.0"
